@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+.container{
+    /* background-color: aqua; */
+    max-height: fit-content;
+
+}
+.navbar{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.navlinks{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* background-color: rgb(255, 48, 1); */
+}
+.logout{
+    /* background-color: chartreuse; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+
+}
+.navlinks a{
+    margin: 10px 20px;
+    color: lightgray;
+}
+.navlinks h1{
+    margin: 10px;
+    color: white;
+}
+.logout button{
+    background-color:lightskyblue;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 14pt;
+}
+.body{
+    display: flex;
+}
+.user{
+    flex: 2;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 40px;
+}
+.userinfo{
+    width: 600px;
+    height: fit-content;
+    border: 2px solid grey;
+    margin-top: 20px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+#userpic{
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 20px;
+    top: -75px
+}
+.userhead{
+    background-color:steelblue;
+    height: 100px;
+    width:603px;
+    position: relative;
+    right: 1px;
+    bottom: 1px
+
+}
+.userlog{
+    margin-left: 20px;
+    margin-top: -75px;
+}
+.userlog h2{
+    font-size: 30pt;
+    margin: 10px 0px;
+}
+.userlog p , .userlog a{
+    margin: 15px 0px;
+}
+
+.userlog img{
+    height: 20px;
+    width: 20px;
+}
+#locality {
+    display: inline;
+}
+#info {
+    display: block;
+    width: 300px;
+}
+
+.education{
+    width: 600px;
+    height:fit-content;
+    margin-top: 20px;
+    margin-right: 50px;
+    border: 2px solid grey;
+}
+.eduhead{
+    height: 75px;
+    background-color: black;
+    width: 584px;
+    position: relative;
+    right: 2px;
+    bottom: 2px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15pt;
+}
+.eduinfo{
+    padding: 20px;
+}
+.eduinfo #one{
+    font-size: 15pt;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+.eduinfo #two{
+    font-size: 12pt;
+    margin: 5px 0px;
+    color: lightslategrey;
+}
+.activity{
+    flex: 1;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+}
