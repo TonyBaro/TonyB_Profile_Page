@@ -174,7 +174,7 @@ h3{
 h4{
     display: inline;
 }
-.confriend{
+.friend{
     width: 100%;
     display: flex;
     height: 75px;
@@ -182,11 +182,11 @@ h4{
     justify-content:flex-start;
     
 }
-.confriend > p{
+.friend > p{
     margin: 0 5px;
 }
 
-.potfriend{
+.friendpic{
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -202,28 +202,6 @@ h4{
     border: 2px solid grey;
     width: 90%;
     margin: 40px 0
-}
-.youhead{
-    background-color: black;
-    width: 100.5%;
-    position: relative;
-    right: 1px;
-    bottom: 1px;
-    height: 75px;
-    font-size: 18pt;
-    font-weight: bold;
-    color: white;
-    display: flex;
-    align-items: center;
-}
-.youhead > p{
-    display: inline;
-    color: black;
-    border-radius: 50%;
-    background-color: lightgray;
-    margin: 0px 20px;
-    border-width: 10px;
-    padding: 5px
 }
 .youconnect > a{
     margin: 20px 20px;
