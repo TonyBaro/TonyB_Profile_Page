@@ -51,12 +51,11 @@
     padding: 40px 150px;
 }
 .userinfo{
-    width: 75%;
+    width: 90%;
     min-width: fit-content;
     height: fit-content;
     border: 2px solid grey;
-    margin-top: 20px;
-    margin-right: 50px;
+    margin: 20px 0;
     padding-bottom: 20px;
 }
 #userpic{
@@ -102,11 +101,10 @@
 }
 
 .education{
-    width: 75%;
+    width: 90%;
     min-width: fit-content;
     height:fit-content;
-    margin-top: 20px;
-    margin-right: 50px;
+    margin: 20px 0;
     border: 2px solid grey;
 }
 .eduhead{
@@ -146,9 +144,9 @@ h3{
     padding: 40px;
 }
 .connect{
-    margin: 40px;
+    margin: 40px 0;
     border: 2px solid grey;
-    width: 75%;
+    width: 90%;
     min-width: fit-content;
 }
 .connecthead{
@@ -201,9 +199,9 @@ h4{
     margin: 0 5px 
 }
 .youconnect{
-    margin: 40px;
     border: 2px solid grey;
-    width: 75%;
+    width: 90%;
+    margin: 40px 0
 }
 .youhead{
     background-color: black;
